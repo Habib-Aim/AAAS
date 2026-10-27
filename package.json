@@ -1,0 +1,15 @@
+{
+  "name": "discord-reaction-role-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Assign a role to members who reacted to a selected Discord message.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "register": "node src/register-command.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7"
+  }
+}
